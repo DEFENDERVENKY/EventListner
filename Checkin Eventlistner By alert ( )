@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Counter</h1>
+
+    <p id="count">0</p>
+
+    <div>
+      <button onclick="ChangeCount(1)">Add</button>
+      <button onclick="ChangeCount(-1)">Subtract</button>
+    </div>
+  </body>
+  <script>
+    function ChangeCount(value) {
+      alert("Button Clicked!");
+    }
+  </script>
+</html>
